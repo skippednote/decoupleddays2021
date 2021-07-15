@@ -1,0 +1,22 @@
+uuid: 908929de-2d4c-4389-af4b-145bed71cbe1
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - decoupled_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: decoupled_theme_help
+theme: decoupled_theme
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

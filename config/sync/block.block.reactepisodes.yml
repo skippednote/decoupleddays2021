@@ -1,0 +1,26 @@
+uuid: 041a1766-039c-4f7f-b305-8d1a505e1655
+langcode: en
+status: true
+dependencies:
+  module:
+    - pdb_react
+    - system
+  theme:
+    - decoupled_theme
+id: reactepisodes
+theme: decoupled_theme
+region: content
+weight: -2
+provider: null
+plugin: 'react_component:react_episodes'
+settings:
+  id: 'react_component:react_episodes'
+  label: 'React Episodes'
+  provider: pdb_react
+  label_display: visible
+  pdb_configuration: null
+visibility:
+  request_path:
+    id: request_path
+    pages: /1
+    negate: false

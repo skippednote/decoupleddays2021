@@ -1,0 +1,26 @@
+uuid: 41db3bff-3eb6-47ee-90a4-81d36a305cc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - pdb_react
+    - system
+  theme:
+    - decoupled_theme
+id: reactcharactersprefetch
+theme: decoupled_theme
+region: content
+weight: 0
+provider: null
+plugin: 'react_component:react_characters_prefetch'
+settings:
+  id: 'react_component:react_characters_prefetch'
+  label: 'React Characters Prefetch'
+  provider: pdb_react
+  label_display: visible
+  pdb_configuration: null
+visibility:
+  request_path:
+    id: request_path
+    pages: /7
+    negate: false

@@ -1,0 +1,30 @@
+uuid: 3c242c21-79c5-46a8-adac-9a19ff05da09
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:de1ce09c-2c00-4bea-8aa2-0fa50a5a5392'
+  module:
+    - block_content
+    - system
+  theme:
+    - decoupled_theme
+id: sveltecharacters
+theme: decoupled_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:de1ce09c-2c00-4bea-8aa2-0fa50a5a5392'
+settings:
+  id: 'block_content:de1ce09c-2c00-4bea-8aa2-0fa50a5a5392'
+  label: 'Svelte Characters'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /3
+    negate: false

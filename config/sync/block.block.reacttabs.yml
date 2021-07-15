@@ -1,0 +1,26 @@
+uuid: 1d34dee1-049a-48f0-812a-30dcdce18570
+langcode: en
+status: true
+dependencies:
+  module:
+    - pdb_react
+    - system
+  theme:
+    - decoupled_theme
+id: reacttabs
+theme: decoupled_theme
+region: content
+weight: -1
+provider: null
+plugin: 'react_component:react_tabs'
+settings:
+  id: 'react_component:react_tabs'
+  label: 'React Tabs'
+  provider: pdb_react
+  label_display: visible
+  pdb_configuration: null
+visibility:
+  request_path:
+    id: request_path
+    pages: /5
+    negate: false

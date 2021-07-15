@@ -1,0 +1,22 @@
+uuid: e853c5f3-ab8f-4d60-b260-d70fe00e7bae
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - decoupled_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: decoupled_theme_messages
+theme: decoupled_theme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: ad09f40c-fd62-4620-b800-b59379e405c7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:09ecf005-82cd-4823-ba08-da58de080b50'
+  module:
+    - block_content
+    - system
+  theme:
+    - decoupled_theme
+id: alpinecharacters
+theme: decoupled_theme
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:09ecf005-82cd-4823-ba08-da58de080b50'
+settings:
+  id: 'block_content:09ecf005-82cd-4823-ba08-da58de080b50'
+  label: 'Alpine Characters'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /2
+    negate: false

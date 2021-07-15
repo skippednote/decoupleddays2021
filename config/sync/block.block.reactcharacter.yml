@@ -1,0 +1,26 @@
+uuid: a2e158dd-fe03-4130-aa0e-ab8a96c2bbc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - pdb_react
+    - system
+  theme:
+    - decoupled_theme
+id: reactcharacter
+theme: decoupled_theme
+region: content
+weight: 0
+provider: null
+plugin: 'react_component:react_character'
+settings:
+  id: 'react_component:react_character'
+  label: 'React Character'
+  provider: pdb_react
+  label_display: visible
+  pdb_configuration: null
+visibility:
+  request_path:
+    id: request_path
+    pages: /9
+    negate: false

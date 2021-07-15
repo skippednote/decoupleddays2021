@@ -1,0 +1,20 @@
+uuid: c5db6122-406d-47e2-b8a8-318d725acd85
+langcode: en
+status: true
+dependencies:
+  theme:
+    - decoupled_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: decoupled_theme_page_title
+theme: decoupled_theme
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

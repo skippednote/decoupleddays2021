@@ -1,0 +1,20 @@
+uuid: 4f506227-e033-4090-8ffd-2160a31d40c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - decoupled_theme
+id: languageswitcher
+theme: decoupled_theme
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: visible
+visibility: {  }

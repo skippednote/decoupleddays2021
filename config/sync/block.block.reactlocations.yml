@@ -1,0 +1,26 @@
+uuid: 15e3f3d1-934f-43b7-ac6d-37c91e1f6d5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - pdb_react
+    - system
+  theme:
+    - decoupled_theme
+id: reactlocations
+theme: decoupled_theme
+region: content
+weight: 0
+provider: null
+plugin: 'react_component:react_locations'
+settings:
+  id: 'react_component:react_locations'
+  label: 'React Locations'
+  provider: pdb_react
+  label_display: visible
+  pdb_configuration: null
+visibility:
+  request_path:
+    id: request_path
+    pages: /8
+    negate: false

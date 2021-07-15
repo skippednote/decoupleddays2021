@@ -1,0 +1,26 @@
+uuid: 79dea345-4e94-4ad3-addc-8b6c229fefc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - pdb_react
+    - system
+  theme:
+    - decoupled_theme
+id: reactpersonaje
+theme: decoupled_theme
+region: content
+weight: 0
+provider: null
+plugin: 'react_component:react_personaje'
+settings:
+  id: 'react_component:react_personaje'
+  label: 'React Personaje'
+  provider: pdb_react
+  label_display: visible
+  pdb_configuration: null
+visibility:
+  request_path:
+    id: request_path
+    pages: "/4\r\n/node/4"
+    negate: false

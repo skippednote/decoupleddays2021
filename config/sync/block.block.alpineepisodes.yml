@@ -1,0 +1,30 @@
+uuid: 7488a4c1-7be0-4571-b147-8a9ad505890c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a3a8d532-778f-4d2b-886b-9087b327e2ee'
+  module:
+    - block_content
+    - system
+  theme:
+    - decoupled_theme
+id: alpineepisodes
+theme: decoupled_theme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:a3a8d532-778f-4d2b-886b-9087b327e2ee'
+settings:
+  id: 'block_content:a3a8d532-778f-4d2b-886b-9087b327e2ee'
+  label: 'Alpine Episodes'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /2
+    negate: false

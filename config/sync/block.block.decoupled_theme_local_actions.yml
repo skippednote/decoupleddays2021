@@ -1,0 +1,20 @@
+uuid: 232da794-86e4-4481-97f3-3ee092d9168e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - decoupled_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: decoupled_theme_local_actions
+theme: decoupled_theme
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
