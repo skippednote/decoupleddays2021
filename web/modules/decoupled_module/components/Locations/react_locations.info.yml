@@ -1,0 +1,11 @@
+name: React Locations
+machine_name: react-locations
+type: pdb
+description: "Rick and Morty Locations"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/locations.js": {}

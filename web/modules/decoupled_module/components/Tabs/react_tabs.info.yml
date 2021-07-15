@@ -1,0 +1,11 @@
+name: React Tabs
+machine_name: react-tabs
+type: pdb
+description: "Rick and Morty Tabs"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/tabs.js": {}

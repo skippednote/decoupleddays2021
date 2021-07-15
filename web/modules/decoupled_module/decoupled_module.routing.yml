@@ -1,0 +1,15 @@
+decoupled_module.logger:
+  path: "/decoupled/logger"
+  method: [POST]
+  defaults:
+    _controller: '\Drupal\decoupled_module\Controller\DecoupledModuleController::log'
+  requirements:
+    _permission: "access content"
+
+decoupled_module.fetch:
+  path: "/7"
+  defaults:
+    _controller: '\Drupal\decoupled_module\Controller\DecoupledModuleController::fetch'
+    _title: "7"
+  requirements:
+    _permission: "access content"

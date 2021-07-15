@@ -1,0 +1,16 @@
+vendor:
+  js:
+    ./build/vendor.js:
+      minified: true
+
+characters:
+  js:
+    ./build/character.js:
+      minified: true
+  depenedencies:
+    - decoupled_module/vendor
+
+svelte:
+  js:
+    ./build/svelte.js:
+      minified: true

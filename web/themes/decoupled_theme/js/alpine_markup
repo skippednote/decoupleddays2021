@@ -1,0 +1,28 @@
+<!-- Episodes -->
+<div x-data>
+  <button @click="$store.episodes.get()">Get episodes</button>
+  <button @click="$store.episodes.clear()" x-show="$store.episodes.episodes">Clear episodes</button>
+  <ul x-show="$store.episodes.episodes">
+    <template x-for="episode in $store.episodes.episodes">
+      <details>
+        <summary x-text="episode.name"></summary>
+        <p x-text="episode.air_date"> 
+      </details>
+    </template>
+  </ul>
+</div>
+
+
+<!-- Characters -->
+<div x-data>
+  <button @click="$store.characters.get()">Get characters</button>
+  <button @click="$store.characters.clear()" x-show="$store.characters.characters">Clear characters</button>
+  <ul x-show="$store.characters.characters">
+    <template x-for="character in $store.characters.characters">
+      <details>
+        <summary x-text="character.name"></summary>
+        <img :src="character.image" :alt="character.name">
+      </details>
+    </template>
+  </ul>
+</div>

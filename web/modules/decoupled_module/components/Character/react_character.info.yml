@@ -1,0 +1,11 @@
+name: React Character
+machine_name: react-character
+type: pdb
+description: "Rick and Morty Character"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/character.js": {}

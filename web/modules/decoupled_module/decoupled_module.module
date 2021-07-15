@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for decoupled_module module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+ function decoupled_module_theme($existing, $type, $theme, $path) {
+  $theme = [
+    'characters' => [
+      'variables' => [
+        'characters' => NULL,
+      ],
+    ],
+  ];
+
+  return $theme;
+}
+
+function decoupled_module_library_info_alter(&$libraries, $extension) {
+  if ( $extension === "pdb_react") {
+    unset($libraries['react']);
+  }
+}
+
+function decoupled_module_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'decoupled_module/vendor';
+  $page['#attached']['library'][] = 'decoupled_module/svelte';
+}
+
+

@@ -1,0 +1,11 @@
+name: React Characters Prefetch
+machine_name: react-characters-prefetch
+type: pdb
+description: "Rick and Morty Characters Prefetch"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/charactersprefetch.js": {}

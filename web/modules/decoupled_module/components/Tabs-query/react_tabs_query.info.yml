@@ -1,0 +1,11 @@
+name: React Tabs Query
+machine_name: react-tabs-query
+type: pdb
+description: "Rick and Morty Tabs Query"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/tabsquery.js": {}

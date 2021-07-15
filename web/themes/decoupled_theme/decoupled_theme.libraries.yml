@@ -1,0 +1,13 @@
+alpine_store:
+  js:
+    js/alpine_store.js: {}
+  dependencies:
+    - decoupled_theme/alpine
+
+alpine:
+  js:
+    //unpkg.com/alpinejs@3.2.1/dist/cdn.min.js:
+      minified: true
+      external: true
+      attributes:
+        defer: true

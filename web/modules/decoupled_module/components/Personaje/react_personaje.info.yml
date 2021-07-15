@@ -1,0 +1,11 @@
+name: React Personaje
+machine_name: react-personaje
+type: pdb
+description: "Rick and Morty Personaje"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/personaje.js": {}

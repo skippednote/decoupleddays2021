@@ -1,0 +1,11 @@
+name: React Episodes
+machine_name: react-episodes
+type: pdb
+description: "Rick and Morty Episodes"
+package: React
+core: "8.x"
+module_status: active
+presentation: react
+add_js:
+  footer:
+    "../../build/episodes.js": {}
