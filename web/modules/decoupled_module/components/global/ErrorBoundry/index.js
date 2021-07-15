@@ -25,6 +25,6 @@ export class ErrorBoundary extends React.Component {
     const { hasError, error, info } = this.state;
     const { children } = this.props;
 
-    return hasError ? <div>ERRORRRRRRR</div> : children;
+    return hasError ? <div>ERRORRRRRRR {error.message}</div> : children;
   }
 }
