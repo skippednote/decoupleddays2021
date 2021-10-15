@@ -2,6 +2,8 @@ vendor:
   js:
     ./build/vendor.js:
       minified: true
+  dependencies:
+    - core/drupal
 
 characters:
   js:
